@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "autentication server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padrisimo/auth-server.git"
+  },
+  "keywords": [
+    "server"
+  ],
+  "author": "Adrian Fernandez Chamizo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/padrisimo/auth-server/issues"
+  },
+  "homepage": "https://github.com/padrisimo/auth-server#readme"
+}
