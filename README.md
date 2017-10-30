@@ -6,5 +6,5 @@ Node.js API Created from scratch
 
 ```
 > npm install
-> node index.js
+> npm run dev
 ``` 
