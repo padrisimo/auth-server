@@ -9,6 +9,7 @@ function tokenForUser(user) {
 
 exports.signin = function(req, res, next){
     // user has already auth we just give them a token
+    res.send({ token: tokenForUser(req.user) });
 }
 
 exports.signup = function (req, res, next) {
