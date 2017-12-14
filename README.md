@@ -23,3 +23,11 @@ Then create a collection called users:
 ```
 > db.createCollection('users')
 ```
+
+U must create a **config.js** file wich exports your secret in ur root directory. For security reasons I keep this file ignored into repository and I advise you to do so. Here is an example:
+
+```javascript
+module.exports = {
+    secret: 'yormaderinballs'
+};
+```
